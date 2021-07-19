@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.krunal.EmployeePayrollDatabaseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-19T15:11:49" hostname="DESKTOP-M2BVJTD" time="0.656">
+  <properties/>
+  <testcase name="givenEmployeePayrollInDB_WhenRetrieved_ShouldMatchEmployeeCount" classname="com.krunal.EmployeePayrollDatabaseTest" time="0.656"/>
+  <system-out><![CDATA[Connecting to database: jdbc:mysql://localhost:3306/payroll_service
+Connection is successful! com.mysql.cj.jdbc.ConnectionImpl@2e8baae
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
