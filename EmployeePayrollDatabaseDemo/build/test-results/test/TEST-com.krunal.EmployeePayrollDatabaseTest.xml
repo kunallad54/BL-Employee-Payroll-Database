@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.krunal.EmployeePayrollDatabaseTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-20T14:19:42" hostname="DESKTOP-M2BVJTD" time="0.943">
+<testsuite name="com.krunal.EmployeePayrollDatabaseTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-07-20T16:13:01" hostname="DESKTOP-M2BVJTD" time="1.412">
   <properties/>
-  <testcase name="givenEmployeePayrollInDB_WhenRetrieved_ShouldMatchEmployeeCount" classname="com.krunal.EmployeePayrollDatabaseTest" time="0.765"/>
-  <testcase name="givenNewSalaryForEmployee_WhenUpdated_ShouldSyncWithDB" classname="com.krunal.EmployeePayrollDatabaseTest" time="0.178"/>
+  <testcase name="givenDateRange_WhenRetrieved_ShouldMatchTheEmployeeCount" classname="com.krunal.EmployeePayrollDatabaseTest" time="0.752"/>
+  <testcase name="givenEmployeePayrollInDB_WhenRetrieved_ShouldMatchEmployeeCount" classname="com.krunal.EmployeePayrollDatabaseTest" time="0.045"/>
+  <testcase name="givenNewSalaryForEmployee_WhenUpdated_ShouldSyncWithDBUsingPreparedStatement" classname="com.krunal.EmployeePayrollDatabaseTest" time="0.473"/>
+  <testcase name="givenNewSalaryForEmployee_WhenUpdated_ShouldSyncWithDB" classname="com.krunal.EmployeePayrollDatabaseTest" time="0.14"/>
   <system-out><![CDATA[Connecting to database: jdbc:mysql://localhost:3306/employee_payroll_services
-Connection is successful! com.mysql.cj.jdbc.ConnectionImpl@62b00232
+Connection is successful! com.mysql.cj.jdbc.ConnectionImpl@45562e6e
 Connecting to database: jdbc:mysql://localhost:3306/employee_payroll_services
-Connection is successful! com.mysql.cj.jdbc.ConnectionImpl@28bcf56f
+Connection is successful! com.mysql.cj.jdbc.ConnectionImpl@691927df
 Connecting to database: jdbc:mysql://localhost:3306/employee_payroll_services
-Connection is successful! com.mysql.cj.jdbc.ConnectionImpl@51f6a246
+Connection is successful! com.mysql.cj.jdbc.ConnectionImpl@44b74fe9
 Connecting to database: jdbc:mysql://localhost:3306/employee_payroll_services
-Connection is successful! com.mysql.cj.jdbc.ConnectionImpl@5431f132
+Connection is successful! com.mysql.cj.jdbc.ConnectionImpl@1de419b9
+Connecting to database: jdbc:mysql://localhost:3306/employee_payroll_services
+Connection is successful! com.mysql.cj.jdbc.ConnectionImpl@6d88e483
+Connecting to database: jdbc:mysql://localhost:3306/employee_payroll_services
+Connection is successful! com.mysql.cj.jdbc.ConnectionImpl@6e76022c
+Connecting to database: jdbc:mysql://localhost:3306/employee_payroll_services
+Connection is successful! com.mysql.cj.jdbc.ConnectionImpl@382de904
+Connecting to database: jdbc:mysql://localhost:3306/employee_payroll_services
+Connection is successful! com.mysql.cj.jdbc.ConnectionImpl@7ecb0cb6
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
